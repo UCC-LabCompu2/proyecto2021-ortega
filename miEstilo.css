@@ -1,3 +1,57 @@
 header{
-    background: #7ae7e7;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    font-size: x-large;
+    font-family: 'DotGothic16', sans-serif;
+    background: #73b0f5;
+}
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+    background: url("Imagenes/background.jpg");
+}
+
+img {
+    width: 80px;
+    float: left;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding: 10px 5px 10px 20px;
+    margin: 10px 370px 10px 370px;
+
+}
+
+section{
+    border-width: 10px;
+    border-style: ridge;
+    border-color: #0956ff;
+    background-color: #cecece;
+    padding: 10px 15px 250px 15px;
+    margin: 10px 320px 90px 320px;
+
+}
+
+footer{
+    text-align: center;
+    color: white;
+
+}
+
+div{
+    padding: 30px 80px 10px 30px;
+}
+
+.columna_uno{
+    float: left;
+}
+
+.boton {
+    font-size: 24px;
+
 }
