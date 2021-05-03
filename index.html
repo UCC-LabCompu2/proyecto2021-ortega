@@ -13,17 +13,19 @@
 <body>
 <header>
     <!--Cabecera de la página-->
-    <img src="Imagenes/physics.png">
+    <img src="Imagenes/physics.png" alt="logo de física">
     <h1>Ley de Snell</h1>
 </header>
 <nav>
     <!--Aquí iran los botones de mi página-->
-    <button type="button" class="boton">Información</button>
-    <button type="button" class="boton">Acerca de</button>
+    <div class="boton">
+        <a href="información.html">Información</a>
+        <a href="about_me.html">Acerca de</a>
+    </div>
 </nav>
 <section>
     <!--Información general-->
-<div1 class="columna_uno">
+<div class="columna_uno">
     <h3>Calculadora</h3>
     <div>
          Ángulo de incidencia (θ<sub>1</sub>):<br>
@@ -40,8 +42,8 @@
     <div>
         <button type="button">Limpiar</button>
     </div>
-</div1>
-<div2 class="columna_dos">
+</div>
+<div class="columna_dos">
     <h3>Resultados</h3>
     <div>
         Ángulo de refracción (θ<sub>2</sub>):<br>
@@ -52,9 +54,9 @@
         <input type="number" name="ang_crit">
     </div>
     <div>
-        <button type="button" id="calcular">Calcular</button>
+        <button type="button">Calcular</button>
     </div>
-</div2>
+</div>
     <canvas id="img_snell">
         El navegador no soporta canvas.
     </canvas>

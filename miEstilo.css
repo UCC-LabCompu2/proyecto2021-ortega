@@ -1,5 +1,4 @@
 header{
-    width: 100%;
     height: 80px;
     text-align: center;
     font-size: x-large;
@@ -10,9 +9,11 @@ header{
 body{
     font-family: 'Noto Sans', sans-serif;
     background: url("Imagenes/background.jpg");
+    padding: 0px;
+    margin: 0px;
 }
 
-img {
+header img {
     width: 80px;
     float: left;
 
@@ -40,8 +41,12 @@ section{
 footer{
     text-align: center;
     color: white;
-
+    width: 100%;
+    background: #202020;
+    padding: 40px;
 }
+
+
 
 div{
     padding: 30px 80px 10px 30px;
@@ -51,7 +56,63 @@ div{
     float: left;
 }
 
-.boton {
+.boton a{
+    font-family: 'Noto Sans',Arial,sans-serif;
     font-size: 24px;
+    font-weight: 900;
+    background-color: #EAF3FB;
+    text-decoration: none;
+    color: #000000;
+    border-top-width: 3px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: #999999;
+    border-right-color: #E9E9E9;
+    border-bottom-color: #E9E9E9;
+    border-left-color: #999999;
+    margin: 72px;
 
+
+}
+
+.boton a:hover{
+    font-family: 'Noto Sans',Arial,sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    background-color: #13bcff;
+    text-decoration: none;
+    color: #FFFFFF;
+    border-top-width: 3px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: #E9E9E9;
+    border-right-color: #666666;
+    border-bottom-color: #666666;
+    border-left-color: #E9E9E9;
+}
+
+.sobre_mi {
+    border-width: 10px;
+    border-style: ridge;
+    border-color: #0956ff;
+    background-color: #cecece;
+    padding: 10px 15px 25px 15px;
+    margin: 10px 270px 90px 270px;
+
+}
+
+.sobre_mi img{
+    width: 420px;
+    display:block;
+    margin:auto;
 }
