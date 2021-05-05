@@ -1,6 +1,8 @@
 # Ley de Snell
 Esta página corresponde a una calculadora de la Ley de Snell.
 
+Link: [Página de Ley de Snell](https://ucc-labcompu2.github.io/proyecto2021-ortega/index.html)
+
 ## Autores
 * Ortega, David E.
 
