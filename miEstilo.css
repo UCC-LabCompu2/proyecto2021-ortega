@@ -72,9 +72,9 @@ section {
 }
 
 h2 {
-    font-size: xx-large;
+    font-size: xxx-large;
     color: cyan;
-    -webkit-text-stroke: 0.5em black;
+    -webkit-text-stroke: 1px black;
 
 }
 
