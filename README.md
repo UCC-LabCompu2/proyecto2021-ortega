@@ -28,9 +28,9 @@ Link: [Página de Ley de Snell](https://ucc-labcompu2.github.io/proyecto2021-ort
 - [X] No utilizar etiquetas deprecadas.
 - [X] El estilo de los elementos debe establecerse en un archivo CSS (prohibido poner el atributo style a los elementos o emplear estilos incrustados).
 - [X] El CSS debe contar mínimo con un tipo de cada forma (por Tag, por ID y por clase).
-- [ ] El código debe estar pusheado en el repositorio (emplear gh-pages), y no debe haber diferencias entre **main** y **gh-pages** (verificar de realizar el Merge).
-- [ ] No debe haber errores presentes (realizar *Code* > *Inspect Code* para verificar que no haya errores)
-- [ ] Todas las etiquetas deben estar correctamente cerradas
+- [X] El código debe estar pusheado en el repositorio (emplear gh-pages), y no debe haber diferencias entre **main** y **gh-pages** (verificar de realizar el Merge).
+- [X] No debe haber errores presentes (realizar *Code* > *Inspect Code* para verificar que no haya errores)
+- [X] Todas las etiquetas deben estar correctamente cerradas
 - [X] Los ids de los elementos deben ser unívocos
 - [X] El repositorio no debe contener archivos innecesarios (no debe contener .idea o .vsc, en todo caso emplear **.gitignore**)
 

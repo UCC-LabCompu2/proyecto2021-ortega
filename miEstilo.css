@@ -1,4 +1,4 @@
-header{
+header {
     position: absolute;
     width: 100%;
     height: 80px;
@@ -8,26 +8,26 @@ header{
 
 }
 
-#tit_header{
+#tit_header {
     float: left;
     text-align: center;
     font-size: xxx-large;
     font-family: 'DotGothic16', sans-serif;
-    margin: 0%;
+    margin: 0;
     color: white;
     padding-right: 110px;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-body{
+body {
     font-family: 'Noto Sans', sans-serif;
     background: url("Imagenes/background.jpg") darkblue;
     background-size: cover;
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
 }
 
 header img {
@@ -36,10 +36,12 @@ header img {
 
 }
 
-nav{
+nav {
     display: flex;
     position: relative;
-    top: 50px; left: 0; right: 0;
+    top: 50px;
+    left: 0;
+    right: 0;
     height: 20px;
     justify-content: space-around;
     align-content: center;
@@ -49,7 +51,7 @@ nav{
 
 }
 
-section{
+section {
     border-width: 10px;
     border-style: ridge;
     border-color: #08306f;
@@ -59,7 +61,7 @@ section{
 
 }
 
-#pag_info{
+#pag_info {
     border-width: 10px;
     border-style: ridge;
     border-color: #08306f;
@@ -69,28 +71,28 @@ section{
 
 }
 
-h2{
-    font-size: xx-large ;
+h2 {
+    font-size: xx-large;
     color: cyan;
-    -webkit-text-stroke: 0.5px black;
+    -webkit-text-stroke: 0.5em black;
 
 }
 
-#img_ref{
+#img_ref {
     width: 420px;
-    display:block;
-    margin:auto;
+    display: block;
+    margin: auto;
 }
 
-#img_ref2{
+#img_ref2 {
     width: 420px;
-    display:block;
-    margin:auto;
+    display: block;
+    margin: auto;
     float: left;
-    padding-right: 70px ;
+    padding-right: 70px;
 }
 
-#exp_ind{
+#exp_ind {
     width: 30%;
     display: block;
     margin: 0;
@@ -103,30 +105,32 @@ table {
     color: #fff;
     margin: auto;
 }
+
 td, th {
     background: #cecece;
     color: #000;
     width: 50%;
 }
 
-caption{
+caption {
     color: black;
     font-weight: bold;
 }
 
-#for_snell{
+#for_snell {
     width: 340px;
     margin-bottom: 200px;
 }
 
-#ej_snell{
+#ej_snell {
     width: 300px;
     float: right;
     padding-right: 50%;
 }
 
-.video{
+.video {
     text-align: center;
+    border: none;
 }
 
 
@@ -142,7 +146,7 @@ footer {
 }
 
 
-div{
+div {
     padding: 30px 80px 10px 30px;
 }
 
@@ -150,14 +154,15 @@ div{
     float: left;
 }
 
+
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
 
-.boton a{
-    font-family: 'Noto Sans',Arial,sans-serif;
+.boton a {
+    font-family: 'Noto Sans', Arial, sans-serif;
     font-size: 24px;
     font-weight: 900;
     background-color: #EAF3FB;
@@ -180,8 +185,8 @@ input::-webkit-inner-spin-button {
 
 }
 
-.boton a:hover{
-    font-family: 'Noto Sans',Arial,sans-serif;
+.boton a:hover {
+    font-family: 'Noto Sans', Arial, sans-serif;
     font-size: 24px;
     font-weight: 900;
     background-color: rgba(19, 188, 255, 0.87);
@@ -211,8 +216,8 @@ input::-webkit-inner-spin-button {
 
 }
 
-.sobre_mi img{
+.sobre_mi img {
     width: 420px;
-    display:block;
-    margin:auto;
+    display: block;
+    margin: auto;
 }
