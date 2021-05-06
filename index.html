@@ -9,12 +9,13 @@
     <link rel="stylesheet" href="miEstilo.css" type="text/css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Noto+Sans&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="Imagenes/favicon.ico">
 </head>
 <body>
 <header>
     <!--Cabecera de la página-->
-    <img src="Imagenes/physics.png" alt="logo de física">
-    <h1>Ley de Snell</h1>
+    <img src="Imagenes/physics.png" alt="Logo de física">
+    <a href="index.html"><h1 id="tit_header">Ley de Snell</h1></a>
 </header>
 <nav>
     <!--Aquí iran los botones de mi página-->
@@ -25,38 +26,38 @@
 </nav>
 <section>
     <!--Información general-->
-<div class="columna_uno">
-    <h3>Calculadora</h3>
-    <div>
-         Ángulo de incidencia (θ<sub>1</sub>):<br>
-         <input type="number" name="ang_inc" id="ang_inc" placeholder="Ingrese un número">
-     </div>
-    <div>
-        Índice de refracción (n<sub>1</sub>):<br>
-        <input type="number" name="n1" id="n1" placeholder="Ingrese un número">
+    <div class="columna_uno">
+        <h3>Calculadora</h3>
+        <div>
+            <label for="ang_inc">Ángulo de incidencia (θ<sub>1</sub>):</label><br>
+            <input type="number" name="ang_inc" id="ang_inc" placeholder="Ingrese un número">
+        </div>
+        <div>
+            <label for="n1">Índice de refracción (n<sub>1</sub>):</label><br>
+            <input type="number" name="n1" id="n1" placeholder="Ingrese un número">
+        </div>
+        <div>
+            <label for="n2">Índice de refracción (n<sub>2</sub>):</label><br>
+            <input type="number" name="n2" id="n2" placeholder="Ingrese un número">
+        </div>
+        <div>
+            <button type="button">Limpiar</button>
+        </div>
     </div>
-    <div>
-        Índice de refracción (n<sub>2</sub>):<br>
-        <input type="number" name="n2" id="n2" placeholder="Ingrese un número">
+    <div class="columna_dos">
+        <h3>Resultados</h3>
+        <div>
+            <label for="ang_ref">Ángulo de refracción (θ<sub>2</sub>):</label><br>
+            <input type="number" name="ang_ref" id="ang_ref" disabled>
+        </div>
+        <div>
+            <label for="ang_crit">Ángulo crítico (θ<sub>c</sub>):</label><br>
+            <input type="number" name="ang_crit" id="ang_crit" disabled>
+        </div>
+        <div>
+            <button type="button">Calcular</button>
+        </div>
     </div>
-    <div>
-        <button type="button">Limpiar</button>
-    </div>
-</div>
-<div class="columna_dos">
-    <h3>Resultados</h3>
-    <div>
-        Ángulo de refracción (θ<sub>2</sub>):<br>
-        <input type="number" name="ang_ref">
-    </div>
-    <div>
-        Ángulo crítico (θ<sub>c</sub>):<br>
-        <input type="number" name="ang_crit">
-    </div>
-    <div>
-        <button type="button">Calcular</button>
-    </div>
-</div>
     <canvas id="img_snell">
         El navegador no soporta canvas.
     </canvas>

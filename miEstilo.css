@@ -1,14 +1,31 @@
 header{
+    position: absolute;
+    width: 100%;
     height: 80px;
+    top: 0;
+    background-image: url("Imagenes/73_26_7.jpg");
+    background-repeat: repeat-x;
+
+}
+
+#tit_header{
+    float: left;
     text-align: center;
-    font-size: x-large;
+    font-size: xxx-large;
     font-family: 'DotGothic16', sans-serif;
-    background: #73b0f5;
+    margin: 0%;
+    color: white;
+    padding-right: 110px;
+}
+
+a{
+    text-decoration: none;
 }
 
 body{
     font-family: 'Noto Sans', sans-serif;
-    background: url("Imagenes/background.jpg");
+    background: url("Imagenes/background.jpg") darkblue;
+    background-size: cover;
     padding: 0px;
     margin: 0px;
 }
@@ -21,39 +38,122 @@ header img {
 
 nav{
     display: flex;
+    position: relative;
+    top: 50px; left: 0; right: 0;
+    height: 20px;
     justify-content: space-around;
     align-content: center;
-    padding: 10px 5px 10px 20px;
+    padding: 10px 15px 110px 15px;
     margin: 10px 370px 10px 370px;
+
 
 }
 
 section{
     border-width: 10px;
     border-style: ridge;
-    border-color: #0956ff;
+    border-color: #08306f;
     background-color: #cecece;
     padding: 10px 15px 250px 15px;
     margin: 10px 320px 90px 320px;
 
 }
 
-footer{
-    text-align: center;
-    color: white;
-    width: 100%;
-    background: #202020;
-    padding: 40px;
+#pag_info{
+    border-width: 10px;
+    border-style: ridge;
+    border-color: #08306f;
+    background-color: #cecece;
+    padding: 10px 15px 130px 15px;
+    margin: 10px 150px 90px 150px;
+
 }
 
+h2{
+    font-size: xx-large ;
+    color: cyan;
+    -webkit-text-stroke: 0.5px black;
+
+}
+
+#img_ref{
+    width: 420px;
+    display:block;
+    margin:auto;
+}
+
+#img_ref2{
+    width: 420px;
+    display:block;
+    margin:auto;
+    float: left;
+    padding-right: 70px ;
+}
+
+#exp_ind{
+    width: 30%;
+    display: block;
+    margin: 0;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 5px;
+    background-color: #08306f;
+    color: #fff;
+    margin: auto;
+}
+td, th {
+    background: #cecece;
+    color: #000;
+    width: 50%;
+}
+
+caption{
+    color: black;
+    font-weight: bold;
+}
+
+#for_snell{
+    width: 340px;
+    margin-bottom: 200px;
+}
+
+#ej_snell{
+    width: 300px;
+    float: right;
+    padding-right: 50%;
+}
+
+.video{
+    text-align: center;
+}
+
+
+footer {
+    text-align: center;
+    position: fixed;
+    color: white;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #202020;
+    padding: 20px;
+}
 
 
 div{
     padding: 30px 80px 10px 30px;
 }
 
-.columna_uno{
+.columna_uno {
     float: left;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 .boton a{
@@ -84,7 +184,7 @@ div{
     font-family: 'Noto Sans',Arial,sans-serif;
     font-size: 24px;
     font-weight: 900;
-    background-color: #13bcff;
+    background-color: rgba(19, 188, 255, 0.87);
     text-decoration: none;
     color: #FFFFFF;
     border-top-width: 3px;
@@ -104,7 +204,7 @@ div{
 .sobre_mi {
     border-width: 10px;
     border-style: ridge;
-    border-color: #0956ff;
+    border-color: #08306f;
     background-color: #cecece;
     padding: 10px 15px 25px 15px;
     margin: 10px 270px 90px 270px;

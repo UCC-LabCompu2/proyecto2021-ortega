@@ -1,31 +1,117 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Ley de Snell</title>
-  <meta content="David, Ortega" name="autor">
-  <meta content="Ley de Snell" name="descripción">
-  <meta content="Ley de Snell, Calculadora, Optica" name="palabras-principales">
-  <link rel="stylesheet" href="miEstilo.css" type="text/css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Noto+Sans&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Ley de Snell</title>
+    <meta content="David, Ortega" name="autor">
+    <meta content="Ley de Snell" name="descripción">
+    <meta content="Ley de Snell, Calculadora, Optica" name="palabras-principales">
+    <link rel="stylesheet" href="miEstilo.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Noto+Sans&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="Imagenes/favicon.ico">
 </head>
 <body>
 <header>
-  <!--Cabecera de la página-->
-  <img src="Imagenes/physics.png" alt="logo de física">
-  <h1>Ley de Snell</h1>
+    <!--Cabecera de la página-->
+    <img src="Imagenes/physics.png" alt="Logo de física">
+    <a href="index.html"><h1 id="tit_header">Ley de Snell</h1></a>
 </header>
 <nav>
-  <!--Aquí iran los botones de mi página-->
-  <div class="boton">
-    <a href="index.html">Principal</a>
-    <a href="about_me.html">Acerca de</a>
-  </div>
+    <!--Aquí iran los botones de mi página-->
+    <div class="boton">
+        <a href="index.html">Principal</a>
+        <a href="about_me.html">Acerca de</a>
+    </div>
 </nav>
-
+<section id="pag_info">
+    <h2>Refracción de la Luz</h2>
+    <p>
+        La refracción de una onda es la flexión que sufre cuando entra en un medio con velocidad de propagación
+        diferente. La refracción de la luz, cuando pasa de un medio de propagación rápido a otro mas lento, dobla
+        el rayo de luz en dirección a la normal a la superficie de contacto entre ambos medios. La cantidad de
+        difracción depende de los índices de refracción de los dos medios y se describe cuantitativamente por la ley
+        de Snell.
+    </p>
+    <img id="img_ref" src="Imagenes/refract2.gif" alt="Explicación de Refracción">
+    <h2>Índice de Refracción</h2>
+    <p>
+        Se define el índice de refracción como la velocidad de la luz en el vacío, dividido por la velocidad de
+        la luz en el medio.
+    </p>
+    <img id="img_ref2" src="Imagenes/refractr.gif" alt="Explicación de Refracción 2">
+    <img id="ind_ref" src="Imagenes/indref.gif" alt="Indice de Refracción">
+    <img id="exp_ind" src="Imagenes/explicacion.png" alt="Explicación de símbolos">
+    <p><br>
+        Abajo se dan los índices de refracción de algunas sustancias comunes. Los valores dados son aproximados
+        y no tienen en cuenta las dispersión, que son las pequeñas variaciones del índice con la longitud de onda
+        de la luz.
+    </p>
+    <table>
+        <caption>Índices de refracción</caption>
+        <thead>
+        <tr>
+            <th>Sustancia</th>
+            <th>Índice de refracción</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Agua</td>
+            <td>1,333</td>
+        </tr>
+        <tr>
+            <td>Aire</td>
+            <td>1,0003</td>
+        </tr>
+        <tr>
+            <td>Benceno</td>
+            <td>1,501</td>
+        </tr>
+        <tr>
+            <td>Etanol</td>
+            <td>1,361</td>
+        </tr>
+        <tr>
+            <td>Vidrio</td>
+            <td>1,58</td>
+        </tr>
+        <tr>
+            <td>Cuarzo</td>
+            <td>1,544</td>
+        </tr>
+        <tr>
+            <td>Hielo</td>
+            <td>1,309</td>
+        </tr>
+        <tr>
+            <td>Diamante</td>
+            <td>2,419</td>
+        </tr>
+        </tbody>
+    </table>
+    <h2>Ley de Snell</h2>
+    <p>
+        La ley de Snell relaciona los índices de refracción n de los dos medios, con las direcciones de propagación
+        en términos de los ángulos con la normal.
+    </p>
+    <img id="for_snell" src="Imagenes/formula.png" alt="Fórmula de Snell">
+    <img id="ej_snell" src="Imagenes/snell.gif" alt="Ejemplo de Snell">
+    <p>
+        Si el medio incidente tiene un índice de refracción mayor, entonces aumenta por la refracción el ángulo con
+        la normal. El medio con índice mayor se llama comunmente el medio "interno", ya que el aire con n=1, está
+        normalmente rodeándolo (medio "externo"). Se puede calcular la condición para la <b>reflexión interna total</b>
+        estableciendo el ángulo refractado = 90º y calculando en ángulo incidente. Puesto que la luz no se puede
+        refractar mas de 90º, todos los ángulos mayores de 90º, reflejarán la luz calculada para el ángulo de 90º.
+    </p>
+    <h2>Por las dudas... una mejor explicación:</h2>
+    <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/k-KIPLgeMko" title="YouTube video player"
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
+            picture-in-picture" allowfullscreen>
+    </iframe></div>
+</section>
 <footer>
-  <b>Unpublished Work © 2021 David Ortega</b>
+    <b>Unpublished Work © 2021 David Ortega</b>
 </footer>
 </body>
 </html>
