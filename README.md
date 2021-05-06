@@ -1,14 +1,14 @@
-# Ley de Snell
+# :books: Ley de Snell
 Esta página corresponde a una calculadora de la Ley de Snell.
 
 Link: [Página de Ley de Snell](https://ucc-labcompu2.github.io/proyecto2021-ortega/index.html)
 
-## Autores
-* Ortega, David E.
+## :boy: Autores
+* **Ortega, David E.**
 
-## Tecnologías
-* HTML5
-* CSS3
+## :computer: Tecnologías
+* **HTML5**
+* **CSS3**
 
 ### Requisitos del Primer Parcial
 - [X] El proyecto debe estar subido al repositorio adecuado "Proyecto2021-ApellidoAlumno1-ApellidoAlumno2"
