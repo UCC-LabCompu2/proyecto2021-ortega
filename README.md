@@ -1,7 +1,14 @@
 # :books: Ley de Snell
-Esta página corresponde a una calculadora de la Ley de Snell.
+Esta página consiste en una simulación tipo de la Ley de Snell, con calculadora adicional para
+lograr resultados específicos.
+Es un trabajo realizado en marco a la materia **Laboratorio de Computacion II** de la UCC
 
 Link: [Página de Ley de Snell](https://ucc-labcompu2.github.io/proyecto2021-ortega/index.html)
+
+## ¿Cómo se usa? :thinking: 
+Primero que todo, haga click en el **Link** que se encuentra arriba...
+Para poder lograr la simulación de Snell, vamos a tener que ingresar información en cada uno de los campos disponibles. Cada campo tiene especificado que dato necesita para poder calcular el ejercicio. Luego de colocar estos datos, seguidamente le da click al botón Calcular. Posteriormente podrá ver gráficamente la resolución del mismo. 
+Si desea, puede limpiar los campos con sólo hacer click en el botón Limpiar y realizar de nuevo el mismo proceso las veces que quiera.
 
 ## :boy: Autores
 * **Ortega, David E.**
