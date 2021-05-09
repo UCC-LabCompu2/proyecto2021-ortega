@@ -11,7 +11,7 @@ header {
 #tit_header {
     float: left;
     text-align: center;
-    font-size: xxx-large;
+    font-size: 325%;
     font-family: 'DotGothic16', sans-serif;
     margin: 0;
     color: white;
@@ -72,10 +72,9 @@ section {
 }
 
 h2 {
-    font-size: xxx-large;
+    font-size: xx-large;
     color: cyan;
     -webkit-text-stroke: 1px black;
-
 }
 
 #img_ref {
@@ -168,10 +167,10 @@ input::-webkit-inner-spin-button {
     background-color: #EAF3FB;
     text-decoration: none;
     color: #000000;
-    border-top-width: 3px;
-    border-right-width: 3px;
-    border-bottom-width: 3px;
-    border-left-width: 3px;
+    border-top-width: 4px;
+    border-right-width: 4px;
+    border-bottom-width: 4px;
+    border-left-width: 4px;
     border-top-style: solid;
     border-right-style: solid;
     border-bottom-style: solid;
@@ -192,10 +191,10 @@ input::-webkit-inner-spin-button {
     background-color: rgba(19, 188, 255, 0.87);
     text-decoration: none;
     color: #FFFFFF;
-    border-top-width: 3px;
-    border-right-width: 3px;
-    border-bottom-width: 3px;
-    border-left-width: 3px;
+    border-top-width: 4px;
+    border-right-width: 4px;
+    border-bottom-width: 4px;
+    border-left-width: 4px;
     border-top-style: solid;
     border-right-style: solid;
     border-bottom-style: solid;
