@@ -2,14 +2,20 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
     <title>Ley de Snell</title>
     <meta content="David, Ortega" name="autor">
     <meta content="Ley de Snell" name="descripción">
     <meta content="Ley de Snell, Calculadora, Optica" name="palabras-principales">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="miEstilo.css" type="text/css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Noto+Sans&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="Imagenes/favicon.ico">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="misFunciones.js"></script>
 </head>
 <body>
 <header>
@@ -24,7 +30,7 @@
         <a href="about_me.html">Acerca de</a>
     </div>
 </nav>
-<section>
+<section id="pag_inicio">
     <!--Información general-->
     <div class="columna_uno">
         <h3>Calculadora</h3>
@@ -41,7 +47,7 @@
             <input type="number" name="n2" id="n2" placeholder="Ingrese un número">
         </div>
         <div>
-            <button type="button">Limpiar</button>
+            <button type="button" onclick="borrarCampos()">Limpiar</button>
         </div>
     </div>
     <div class="columna_dos">
@@ -55,15 +61,17 @@
             <input type="number" name="ang_crit" id="ang_crit" disabled>
         </div>
         <div>
-            <button type="button">Calcular</button>
+            <button type="button" onclick="myFunction()">Calcular</button>
         </div>
     </div>
-    <canvas id="img_snell">
+    <div id="divCanvas">
+    <canvas id="myCanvas" class="dibujo" width="300px" height="200px">
         El navegador no soporta canvas.
     </canvas>
+    </div>
 </section>
 <footer>
-    <b>Unpublished Work © 2021 David Ortega</b>
+    <b>© 2021 David Ortega</b>
 </footer>
 </body>
 </html>
