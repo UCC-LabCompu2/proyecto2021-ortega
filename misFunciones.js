@@ -183,13 +183,12 @@ function Dibuja() {
     }
 
 
-    if (EnError == 2){
+    if (EnError == 2) {
         ctx.font = " bold 12px Arial";
         ctx.fillStyle = "black";
         ctx.textAlign = "center";
         ctx.fillText("Faltan datos...", 150, 100);
-    }
-    else if (EnError == 1) {
+    } else if (EnError == 1) {
         ctx.font = " bold 12px Arial";
         ctx.fillStyle = "black";
         ctx.textAlign = "center";
@@ -229,5 +228,5 @@ function alert1() {
  * @method alert2
  */
 function alert2() {
-    alert("Ingrese un valor para el ángulo de incidencia.");
+    alert("Ingrese un valor para el ángulo de incidencia.\nEl ángulo 1 tiene que ser superior a 0º e inferior a 90º");
 }
