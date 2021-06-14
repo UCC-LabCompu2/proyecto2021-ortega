@@ -38,11 +38,12 @@ function Dibuja() {
         EnError = 1;
     }
 
+
     if (isNaN(parseFloat(document.getElementById('ang_inc').value))) { // Si el campo del ángulo incidente está vacío...
         document.getElementById('ang_inc').value = "";
         document.getElementById('ang_ref').value = "";
         alert2();
-        EnError = 1;
+        EnError = 2;
     }
 
 
@@ -55,34 +56,34 @@ function Dibuja() {
         document.getElementById('n1').value = "";
         document.getElementById('ang_ref').value = "";
         alert1();
-        EnError = 1;
+        EnError = 2;
     }
 
     if (n2 <= 0) { // Si el índice n2 ingresado es negativo.
         document.getElementById('n2').value = "";
         document.getElementById('ang_ref').value = "";
         alert1();
-        EnError = 1;
+        EnError = 2;
     }
 
     if (n1 > 10) {
         document.getElementById('n1').value = "";
         document.getElementById('ang_ref').value = "";
         alert1();
-        EnError = 1;
+        EnError = 2;
     }
 
     if (n2 > 10) {
         document.getElementById('n2').value = "";
         document.getElementById('ang_ref').value = "";
         alert1();
-        EnError = 1;
+        EnError = 2;
     }
 
     if (isNaN(n1) || isNaN(n2)) {
         document.getElementById('ang_ref').value = "";
         alert1();
-        EnError = 1;
+        EnError = 2;
     }
 
 
@@ -156,7 +157,7 @@ function Dibuja() {
         ctx.setLineDash([]);
         ctx.lineWidth = "1";
         ctx.arc(150, 100, 50, -0.5 * Math.PI, -0.5 * Math.PI - Angulo1, true);
-        ctx.strokeStyle = '#9ab4e3';
+        ctx.strokeStyle = '#562ff3';
         ctx.stroke();
 
         //Ángulo2
@@ -164,7 +165,7 @@ function Dibuja() {
         ctx.setLineDash([]);
         ctx.lineWidth = "1";
         ctx.arc(150, 100, 50, 0.5 * Math.PI, 0.5 * Math.PI - Angulo2, true);
-        ctx.strokeStyle = '#9ab4e3';
+        ctx.strokeStyle = '#562ff3';
         ctx.stroke();
 
         //Letras Theta y n1  n2
@@ -179,15 +180,22 @@ function Dibuja() {
         ctx.fillText("n2", 10, 125);
 
 
-    } else {
+    }
+
+
+    if (EnError == 2){
+        ctx.font = " bold 12px Arial";
+        ctx.fillStyle = "black";
+        ctx.textAlign = "center";
+        ctx.fillText("Faltan datos...", 150, 100);
+    }
+    else if (EnError == 1) {
         ctx.font = " bold 12px Arial";
         ctx.fillStyle = "black";
         ctx.textAlign = "center";
         ctx.fillText("El Ángulo 1 supera el ángulo crítico", 150, 100);
         ctx.fillText("para esos índices de refracción", 150, 115);
-        canvas.width = canvas.width;
     }
-
 }
 
 /**
@@ -223,4 +231,3 @@ function alert1() {
 function alert2() {
     alert("Ingrese un valor para el ángulo de incidencia.");
 }
-
