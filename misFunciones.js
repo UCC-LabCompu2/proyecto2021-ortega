@@ -80,6 +80,7 @@ function Dibuja() {
         EnError = 2;
     }
 
+
     if (isNaN(n1) || isNaN(n2)) {
         document.getElementById('ang_ref').value = "";
         alert1();
